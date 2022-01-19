@@ -152,8 +152,12 @@ ul {
 li {
     display: inline-block;
     text-transform:uppercase;
-    color: rgb(192, 191, 191);
     font-size: .8em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(192, 191, 191);
 }
 
 main {
