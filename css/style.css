@@ -270,4 +270,5 @@ span:hover{
 .foot:hover{
     font-size: 1.5em;
     color: red;
+    line-height: 1em;
 }
