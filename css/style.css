@@ -76,8 +76,16 @@ body {
 
 /*sezione di eliminazione attributi*/
 
+.debug body{
+    width: 600px;
+    height: auto;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 .debug .cube{
-    width: auto;
+    width: 600px;
 }
 
 .debug .main_section {
@@ -86,26 +94,26 @@ body {
 }
 
 .debug .head_section{
-    width: 100%;
+    width: 600px;
     height: auto;
 }
 
 .debug .sidebar {
-    width: 29%;
+    width: 140px;
     height: auto;
     background-color: grey;
 }
 
 .debug .central_section {
-    width: 40%;
+    width: 280px;
     height: auto;
+    margin: 0 1em;
 }
 
 .debug .pink {
     background-color: transparent;
     width: auto;
     height: auto;
-    margin: 0 auto;
 }
 
 .debug .yellow {
@@ -144,7 +152,7 @@ nav {
 ul {
     list-style-type: none;
     margin: 1em 0;
-    margin-left: -40px;
+    padding-left: 0;
 }
 
 li {
@@ -155,33 +163,41 @@ li {
 }
 
 main {
-    width: 500px;
+    width: 600px;
     height: auto;
 }
 
 .banner_page{
-    width: 100%;
+    width: 600px;
     margin: 0 auto;
     border: 1px solid transparent;
     border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
     border-bottom-right-radius: 5%;
     border-top-right-radius: 5%;
+    filter: brightness(75%)
 }
 
 h2{
     font-size: 10px;
     color: rgb(192, 191, 191);
+    margin-bottom: 2em;
 }
 
 .img_sidebar_right {
-    width: 100%;
-    margin: 0 -1em;
+    width: 140px;
+    height: 140px;
+    filter: brightness(75%);
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
 h3{
     font-size: 10px;
     margin-bottom: 1em;
+    margin-top: 1em;
     color: rgba(0, 0, 0, 0.6);
 }
 
@@ -189,4 +205,18 @@ h3{
     font-size: .6em;
     font-size: 10px;
     color: rgb(192, 191, 191);
+}
+
+.img_banner{
+    width: 280px;
+    height: 140px;
+    filter: brightness(75%);
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.central{
+    width: 300px;
 }
