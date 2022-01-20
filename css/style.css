@@ -110,10 +110,15 @@ body {
 }
 
 .debug .yellow {
-    background-color: transparent;
-    height: auto;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 400px;
     margin: 2% auto;
     position: relative;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .debug .light_blue {
@@ -169,7 +174,12 @@ main {
     height: auto;
 }
 
-.banner_page{
+.banner-article {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 400px;
+}
+
+/*.banner_page{
     width: 600px;
     margin: 0 auto;
     border: 1px solid transparent;
@@ -179,13 +189,15 @@ main {
     border-top-right-radius: 5%;
     filter: brightness(75%)
 }
+*/
 
 .title_banner{
-    color: rgba(255,255,255,.8);
+    color: rgb(255,255,255);
     font-size: 1.2em;
     position: absolute;
     bottom: 6rem;
     left: 1rem;
+    filter: brightness(100%)
 }
 
 .subtitle_banner{
