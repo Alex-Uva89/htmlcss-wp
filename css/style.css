@@ -110,15 +110,15 @@ body {
 }
 
 .debug .yellow {
+    height: 400px;
+    margin: 2% auto;
     background-image: url(../img/banner.jpg);
     background-position: center;
     background-size: contain;
-    height: 400px;
-    margin: 2% auto;
-    position: relative;
     border: 1px solid transparent;
     border-radius: 5%;
     overflow: hidden;
+    position: relative;
 }
 
 .debug .light_blue {
@@ -148,16 +148,18 @@ nav {
     margin-left: ;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 1em 0;
     padding-left: 0;
 }
 
-li {
+nav li {
     display: inline-block;
     text-transform:uppercase;
     font-size: .8em;
+    padding-right: 2em;
+    margin-left: -1em;
 }
 
 a{
